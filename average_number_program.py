@@ -21,32 +21,20 @@ def main():
     # process & output
     try:
 
-            number_one = int(number_one_string)
-            number_two = int(number_two_string)
-            number_three = int(number_three_string)
+        number_one = int(number_one_string)
+        number_two = int(number_two_string)
+        number_three = int(number_three_string)
 
-            if number_one >= 0 and number_one >= 100:
-                print(
-                    "\nThe first number you inputted, which is {0} is too large, please try again!".format(
-                        number_one
-                    )
-                )
-                if number_two >= 0 and number_two >= 100:
-                    print(
-                        "\nThe second number you inputted, which is {0} is too large, please try again!".format(
-                        number_two
-                        )
-                    )
-                    if number_three >= 0 and number_three >= 100:
-                        print(
-                            "\nThe second number you inputted, which is {0} is too large, please try again!".format(
-                                number_three
-                            )
-                        )
-    
-            else:
-                print((number_one + number_two + number_three) / 3)
-            
+        if number_one >= 0 and number_one <= 100:
+            print("\nInvalid Number, please try again!!")
+        elif number_two >= 0 and number_two <= 100:
+            print("\nInvalid Number, please try again!")
+        elif number_three >= 0 and number_three <= 100:
+            print("\nInvalid Number, please try again!")
+
+        else:
+            print((number_one + number_two + number_three) / 3)
+
     except Exception:
         print("Invalid Input")
     print("\nDone.")
