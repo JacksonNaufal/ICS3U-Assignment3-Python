@@ -5,6 +5,7 @@
 # This is a average number calculator program
 
 
+
 def main():
 
     # This is a average number calculator
@@ -25,12 +26,19 @@ def main():
         number_two = int(number_two_string)
         number_three = int(number_three_string)
 
-        if number_one >= 0 and number_one <= 100:
+        if number_one >= 100: 
             print("\nInvalid Number, please try again!!")
-        elif number_two >= 0 and number_two <= 100:
+        elif number_two >= 100:
             print("\nInvalid Number, please try again!")
-        elif number_three >= 0 and number_three <= 100:
+        elif number_three >= 100:
             print("\nInvalid Number, please try again!")
+        elif number_one<= 0:
+            print("\nInvalid Number, please try again!")
+        elif number_two <= 0:
+            print("\nInvalid Number, please try again!")
+        elif number_three <= 0:
+            print("\nInvalid Number, please try again!")
+        
 
         else:
             print((number_one + number_two + number_three) / 3)
