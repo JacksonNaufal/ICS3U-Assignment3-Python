@@ -25,17 +25,11 @@ def main():
         average = (number_one + number_two + number_three) / 3
         actual = float(int(average * 100)) / 100
 
-        if number_one >= 100:
+        if number_one >= 100 or number_one < 0 :
             print("\nInvalid Number, please try again!! (Number 1)")
-        elif number_two >= 100:
+        elif number_two >= 100 or number_two < 0:
             print("\nInvalid Number, please try again!(Number 2)")
-        elif number_three >= 100:
-            print("\nInvalid Number, please try again! (Number 3)")
-        elif number_one < 0:
-            print("\nInvalid Number, please try again! (Number 1)")
-        elif number_two < 0:
-            print("\nInvalid Number, please try again! (Number 2)")
-        elif number_three < 0:
+        elif number_three >= 100 or number_three < 0:
             print("\nInvalid Number, please try again! (Number 3)")
 
         else:
