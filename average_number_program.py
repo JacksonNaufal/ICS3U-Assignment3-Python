@@ -11,7 +11,7 @@ def main():
 
     # input
     print("This calculator will calculate your three numbers!")
-    print("Note: this calculator will not round!")
+    print("Note: this calculator will round to 2 decimal places!")
     print("Note: Max number is 100, Min number is 0")
     number_one_string = input("What is your first number?: ")
     number_two_string = input("What is your second number?: ")
@@ -22,6 +22,8 @@ def main():
         number_one = float(number_one_string)
         number_two = float(number_two_string)
         number_three = float(number_three_string)
+        average = (number_one + number_two + number_three) / 3
+        actual = float(int(average * 100)) / 100
 
         if number_one >= 100:
             print("\nInvalid Number, please try again!! (Number 1)")
@@ -37,12 +39,11 @@ def main():
             print("\nInvalid Number, please try again! (Number 3)")
 
         else:
-            average = (number_one + number_two + number_three) / 3
-            actual = round(average, 2)
             print("Your average between the 3 numbers is {0}".format(actual))
 
     except Exception:
         print("Invalid Input")
+
     print("\nDone.")
 
 
