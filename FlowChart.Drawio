@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="SI7tuCP2dQLLvXjDpIHG" name="Page-1">
-        <mxGraphModel dx="625" dy="1768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="594" dy="1681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -97,7 +97,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="131" value="check if number-one &amp;gt;= 0&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;number_one &amp;lt;= 100" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="131" value="check if number-one &amp;gt;= 0&lt;br&gt;||&lt;br&gt;number_one &amp;lt;= 100" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="198.44" y="420" width="160.12" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="156" value="" style="edgeStyle=none;html=1;" parent="1" source="141" target="142" edge="1">
@@ -108,7 +108,7 @@
                         <mxPoint x="98" y="660" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="141" value="check if number-two&amp;gt;= 0&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;number_two &amp;lt;= 100" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="141" value="check if number-two&amp;gt;= 0&lt;br&gt;||&lt;br&gt;number_two &amp;lt;= 100" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="198.44" y="590" width="160.12" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="157" value="" style="edgeStyle=none;html=1;" parent="1" source="142" target="76" edge="1">
@@ -144,16 +144,16 @@
                 <mxCell id="165" value="Invalid Number" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
                     <mxGeometry x="10" y="1020" width="165.5" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="175" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="175" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="120" y="620" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="176" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="176" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="115.5" y="790" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="177" value="actual = float(int(average * 100)) / 100" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="177" value="actual = float(int(average * 100)) / 100" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="221.19" y="1090" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="178" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;" edge="1" parent="1" source="78" target="177">
+                <mxCell id="178" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;" parent="1" source="78" target="177" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="281.7664285714286" y="1070" as="sourcePoint"/>
                         <mxPoint x="283.88" y="1180" as="targetPoint"/>
