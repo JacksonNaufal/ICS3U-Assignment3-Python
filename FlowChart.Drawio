@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="SI7tuCP2dQLLvXjDpIHG" name="Page-1">
-        <mxGraphModel dx="594" dy="1681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="894" dy="1738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -97,7 +97,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="131" value="check if number-one &amp;gt;= 0&lt;br&gt;||&lt;br&gt;number_one &amp;lt;= 100" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="131" value="check if number-one &amp;lt; 0&lt;br&gt;||&lt;br&gt;number_one &amp;gt;= 100" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="198.44" y="420" width="160.12" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="156" value="" style="edgeStyle=none;html=1;" parent="1" source="141" target="142" edge="1">
@@ -108,7 +108,7 @@
                         <mxPoint x="98" y="660" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="141" value="check if number-two&amp;gt;= 0&lt;br&gt;||&lt;br&gt;number_two &amp;lt;= 100" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="141" value="check if number-two &amp;lt; 0&lt;br&gt;||&lt;br&gt;number_two &amp;gt;= 100" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="198.44" y="590" width="160.12" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="157" value="" style="edgeStyle=none;html=1;" parent="1" source="142" target="76" edge="1">
